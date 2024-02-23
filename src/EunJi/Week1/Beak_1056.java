@@ -6,25 +6,20 @@ public class Beak_1056 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        int answer = 0;
-        if(num <= 99){
-            answer = num;
-        }else if(num <= 110){
-            answer = 99;
-        }else if(num == 1000){
-            answer = 144;
-        }else {
-            answer = 99;
-            for (int i = 111; i <= num; i++) {
-                int temp100 = i/100;
-                int temp10 = i/10 - 10*temp100;
-                int temp1 = i%10;
-                if(temp1 -temp10 == temp10 -temp100){
-                    answer ++;
-                }
-            }
+        int closeNum = 2;
+        int answer = 1;
+        while (closeNum < num){
+            closeNum = closeNum* closeNum; // 여기서 closeNum은 num보다 큼
         }
-        System.out.println(answer);
+        System.out.println("closeNum = " + closeNum);
+        if(closeNum - num > num - closeNum/2){
+            answer = answer + (num - closeNum/2);
+        }else {
+            answer = answer + (closeNum - num);
+        }
 
+        System.out.println(answer);
     }
+
 }
+
