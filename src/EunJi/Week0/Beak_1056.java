@@ -1,4 +1,4 @@
-package EunJi.Week1;
+package EunJi.Week0;
 
 import java.util.Scanner;
 
