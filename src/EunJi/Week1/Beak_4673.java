@@ -1,24 +1,30 @@
 package EunJi.Week1;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.HashMap;
+
 
 public class Beak_4673 {
     public static void main(String[] args) {
-        ArrayList<Integer> temp = new ArrayList<>();
+
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 1; i < 10001; i++) {
-            temp.add(i);
+            map.put(i, calculateThatNonsense(i));
         }
-        for (int i = 0; i < 10001; i++) {
-            int temp_num = i;
-            while (i != 0){
-                temp_num += i%10;
-                i = i/10;
+
+        for (int i = 1; i < 10001; i++) {
+            if (!map.containsValue(i)){
+                System.out.println(i);
             }
-            temp.remove(Integer.valueOf(temp_num));
         }
-        System.out.println("temp = " + temp);
     }
 
+    static int calculateThatNonsense(int n) {
+        int result = n;
+        while (n > 0) {
+            result += n % 10;
+            n /= 10;
+        }
+        return result;
+    }
 }
 
