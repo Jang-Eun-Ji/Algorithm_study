@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class BufferedReader {
+public class BufferReader {
     public static void main(String[] args) throws IOException {
         java.io.BufferedReader br = new java.io.BufferedReader(new InputStreamReader(System.in)); // 한줄씩 통으로 받는거
         int n = Integer.parseInt(br.readLine()); // String으로 받아서 형변환 해줘야함

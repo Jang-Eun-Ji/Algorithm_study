@@ -1,0 +1,12 @@
+
+t	java:S135:"YReduce the total number of break and continue statements in this loop to use at most one.(ί¥Θ~8Ίκυίδ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΧΗ”„ϋÿÿÿÿ8»κυίδ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ο¥Λγ8»κυίδ1
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤φ€'8»κυίδ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(χοΪ²8»κυίδ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¥ωθ8»κυίδ1
+W
+java:S1854""5Remove this useless assignment to local variable "N".(Έµηωÿÿÿÿ8¨λυίδ1
+B
+java:S1481"&Remove this unused "N" local variable.(¤φ€'8«λυίδ1
+G	java:S106>"+Replace this use of System.out by a logger.(τ¤„ε8―λυίδ1
