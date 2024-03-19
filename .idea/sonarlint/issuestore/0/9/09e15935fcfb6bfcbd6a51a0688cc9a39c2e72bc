@@ -1,0 +1,26 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Éê¦8Çë™¯å1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ€»øÿÿÿÿ8Èë™¯å1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÎ—ùÿÿÿÿ8Èë™¯å1
+u
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(Ñ£Äúÿÿÿÿ8Èë™¯å1
+n
+java:S1104"QMake graph a static final constant or non-public and provide accessors if needed.(ùƒÜ´8Èë™¯å1
+O
+java:S1444"-Make this "public static visited" field final(Ñ£Äúÿÿÿÿ8Éë™¯å1
+H
+java:S1444"+Make this "public static graph" field final(ùƒÜ´8Éë™¯å1
+i	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷¤¤Ç8Éë™¯å1
+:
+java:S2386"Make this member "protected".(ùƒÜ´8Ñë™¯å1
+W
+java:S1854"5Remove this useless assignment to local variable "V".(ĞÎ—ùÿÿÿÿ8Õë™¯å1
+W
+java:S1854"5Remove this useless assignment to local variable "M".(Ğ€»øÿÿÿÿ8Õë™¯å1
+H
+java:S1481"&Remove this unused "M" local variable.(Ğ€»øÿÿÿÿ8Øë™¯å1
+H
+java:S1481"&Remove this unused "V" local variable.(ĞÎ—ùÿÿÿÿ8Ùë™¯å1
+?
+java:S2386""Make member "visited" "protected".(£ññØ8Ùë™¯å1
