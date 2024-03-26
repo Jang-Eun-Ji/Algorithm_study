@@ -27,3 +27,15 @@ Y
 )src/bellwin/week2/Q1966_프린터큐.java,c\0\c016d469e8e22ec86559f053f5c5d920444fb984
 V
 &src/bellwin/week2/Q1260_DFS와BFS.java,0\9\09e15935fcfb6bfcbd6a51a0688cc9a39c2e72bc
+Z
+*src/bellwin/week3/Q10798_세로읽기.java,9\f\9fd535a4fdbd195cd5d9f90b0c27868c87d68747
+Y
+)src/bellwin/week3/Q2839_설탕배달.java,b\a\badf90b1ba15122038c6a3ff36b8e5e2c43ba1ac
+Y
+)src/bellwin/week3/Q2606_바이러스.java,f\8\f8d979aa04795b67a507d09ad499b104a9c18aa0
+b
+2src/bellwin/week3/Q2667_단지번호붙이기.java,a\3\a353d77ea4a2b79ad6f892fcf4e4b3ea3ac17174
+_
+/src/bellwin/week3/Q2667_혼자서해보기.java,0\1\010efcaff51ad725ae9b7ce57153de109ff7c223
+\
+,src/bellwin/week3/Q1012_유기농배추.java,a\a\aa80f753101d6eafde9b1c69cd1f3cc83b3042c3
